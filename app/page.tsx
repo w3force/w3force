@@ -1,65 +1,159 @@
-import Image from "next/image";
+import Hero from '@/components/Hero';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <Hero />
+
+      {/* Company Overview */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
+              Who We <span className="gradient-text">Are</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              W3force is a cutting-edge software development company specializing in AI-powered applications.
+              We transform complex ideas into elegant, intelligent solutions.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* AI Development */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100 hover:shadow-xl transition-shadow">
+              <div className="text-4xl mb-4">🤖</div>
+              <h3 className="text-2xl font-bold mb-3 text-violet-900">AI Integration</h3>
+              <p className="text-gray-700">
+                Integrate cutting-edge AI and machine learning capabilities into your applications
+                for smarter, more efficient solutions.
+              </p>
+            </div>
+
+            {/* Web Development */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-xl transition-shadow">
+              <div className="text-4xl mb-4">💻</div>
+              <h3 className="text-2xl font-bold mb-3 text-pink-900">Web Applications</h3>
+              <p className="text-gray-700">
+                Build modern, responsive web applications with the latest technologies
+                including Next.js, React, and TypeScript.
+              </p>
+            </div>
+
+            {/* Mobile Development */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-shadow">
+              <div className="text-4xl mb-4">📱</div>
+              <h3 className="text-2xl font-bold mb-3 text-orange-900">Mobile Apps</h3>
+              <p className="text-gray-700">
+                Create powerful mobile applications with intuitive interfaces
+                and seamless user experiences across all platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Project - Nestly */}
+      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
+              Featured <span className="gradient-text">Project</span>
+            </h2>
+            <p className="text-xl text-gray-600">
+              Showcasing our expertise in AI-powered financial planning
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="p-8 lg:p-12">
+                <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
+                  AI Financial Tool
+                </div>
+                <h3 className="text-3xl font-bold mb-4">Nestly Advisor</h3>
+                <p className="text-gray-600 mb-6 text-lg">
+                  An intelligent retirement planning tool that helps users project their savings,
+                  401(k), Social Security, and investments. Watch your future grow, one nest at a time.
+                </p>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-3">⚡</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Instant Projections</h4>
+                      <p className="text-gray-600">See retirement results in 8 seconds</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-3">📊</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">What-If Analysis</h4>
+                      <p className="text-gray-600">Compare multiple scenarios side-by-side</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="text-2xl mr-3">🔒</div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Privacy First</h4>
+                      <p className="text-gray-600">All calculations run on your device</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <a
+                    href="https://nestlyadvisor.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 gradient-bg text-white rounded-full font-semibold hover:opacity-90 transition-opacity"
+                  >
+                    Visit Live Site
+                  </a>
+                  <Link
+                    href="/portfolio"
+                    className="px-6 py-3 bg-gray-100 text-gray-900 rounded-full font-semibold hover:bg-gray-200 transition-colors"
+                  >
+                    View Details
+                  </Link>
+                </div>
+              </div>
+
+              <div className="p-8 lg:p-0">
+                <div className="relative h-[500px] lg:h-full">
+                  <Image
+                    src="/nestly/screenshot-1-home.png"
+                    alt="Nestly Advisor App"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20 bg-gray-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold mb-6">
+            Ready to Build Something <span className="gradient-text">Amazing?</span>
+          </h2>
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Let&apos;s discuss how we can help bring your ideas to life with cutting-edge technology and AI.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/contact"
+            className="inline-block px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            Start Your Project
+          </Link>
         </div>
-      </main>
-    </div>
+      </section>
+    </>
   );
 }
+
