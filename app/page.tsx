@@ -33,7 +33,7 @@ export default function Home() {
 
             {/* Smart Budgeting */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">�</div>
+              <div className="text-4xl mb-4">💳</div>
               <h3 className="text-2xl font-bold mb-3 text-pink-900">Smart Budgeting</h3>
               <p className="text-gray-700">
                 Take control of your spending. Track expenses, manage bills, and get AI insights 
@@ -43,7 +43,7 @@ export default function Home() {
 
             {/* Investment Tracking */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">�</div>
+              <div className="text-4xl mb-4">📈</div>
               <h3 className="text-2xl font-bold mb-3 text-orange-900">Investment Tracking</h3>
               <p className="text-gray-700">
                 Monitor your portfolio in real-time. Track stocks, analyze performance, 
