@@ -600,16 +600,16 @@ export default function PortfolioPage() {
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Ready for Your <span className="gradient-text">Next Project?</span>
+            Ready to Take Control of <span className="gradient-text">Your Finances?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let&apos;s build something amazing together with AI-powered solutions.
+            Join our waitlist and be first to access new financial planning tools and features.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            Get Started
+            Join Early Access
           </a>
         </div>
       </section>
