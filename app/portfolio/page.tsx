@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Portfolio - W3force',
-  description: 'Explore our portfolio of AI-powered applications including Nestly Advisor, a comprehensive retirement planning tool.',
+  description: 'Explore our portfolio of AI-powered applications including Nestly Advisor and My Stocks app.',
 };
 
 export default function PortfolioPage() {
@@ -256,6 +256,182 @@ export default function PortfolioPage() {
               <div className="text-center">
                 <div className="text-4xl font-bold gradient-text mb-2">Free</div>
                 <p className="text-gray-700 font-semibold">Forever</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* My Stocks - Second Project */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Project Header */}
+          <div className="mb-12">
+            <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
+              Mobile App
+            </div>
+            <h2 className="text-4xl font-bold mb-4">My Stocks</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              Smart stock portfolio tracking and management
+            </p>
+            <p className="text-lg text-gray-600 mb-8 max-w-4xl">
+              My Stocks is a comprehensive mobile application for tracking and managing your stock portfolios. 
+              Monitor real-time market data, organize stocks into custom groups, track your investments, 
+              and watch your portfolio performance with an intuitive interface designed for both novice 
+              and experienced investors.
+            </p>
+          </div>
+
+          {/* Key Features */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              Key <span className="gradient-text">Features</span>
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">📊</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Portfolio Management</h4>
+                <p className="text-gray-600">
+                  Organize stocks into custom groups (Tech Stocks, Oil Stocks, etc.) with real-time value tracking 
+                  and percentage changes for each holding.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">👀</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Watch Lists</h4>
+                <p className="text-gray-600">
+                  Create and manage custom watch lists to track stocks you&apos;re interested in, 
+                  with live price updates and market performance indicators.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">📈</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Real-Time Data</h4>
+                <p className="text-gray-600">
+                  Access live stock prices, market indices (DOW, NASDAQ), and track daily gains/losses 
+                  with percentage calculations for informed decision making.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* App Screenshots */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              App <span className="gradient-text">Screenshots</span>
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-1-portfolio.png"
+                  alt="My Stocks Portfolio View"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Portfolio Overview</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-2-watchlist.png"
+                  alt="My Stocks Watch List"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Watch List</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-3.png"
+                  alt="My Stocks Details"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Stock Details</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-4.png"
+                  alt="My Stocks Analytics"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Analytics View</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-5.png"
+                  alt="My Stocks Settings"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Settings</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mystocks/screenshot-6.png"
+                  alt="My Stocks Market Data"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Market Data</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Tech Stack */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              Tech <span className="gradient-text">Stack</span>
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {['React Native', 'TypeScript', 'REST APIs', 'Redux', 'Real-time Data', 'iOS & Android', 'Firebase', 'Chart Libraries'].map((tech) => (
+                <div
+                  key={tech}
+                  className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
+                >
+                  {tech}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Project Highlights */}
+          <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
+            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#374151' }}>
+              Project <span className="gradient-text">Highlights</span>
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">10K+</div>
+                <p className="text-gray-600">Active Users</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">4.5★</div>
+                <p className="text-gray-600">App Store Rating</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">Real-time</div>
+                <p className="text-gray-600">Market Data Updates</p>
               </div>
             </div>
           </div>
