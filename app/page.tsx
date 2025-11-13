@@ -144,7 +144,7 @@ export default function Home() {
             Ready to Take Control of <span className="gradient-text">Your Money?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of people using W3force tools to plan smarter, save more, and build lasting wealth.
+            Join thousands of people using W3Force tools to plan smarter, save more, and build lasting wealth.
           </p>
           <Link
             href="/contact"

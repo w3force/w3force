@@ -16,20 +16,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.w3force.net'),
-  title: "W3force - AI-Powered Personal Finance",
+  title: "W3Force - AI-Powered Personal Finance",
   description: "Simple, AI-powered tools for retirement planning, budgeting, and investment tracking. Take control of your financial future—no finance degree needed.",
   keywords: ["retirement planning", "budget calculator", "investment tracking", "personal finance", "financial planning", "401k calculator", "AI finance"],
-  authors: [{ name: "W3force" }],
+  authors: [{ name: "W3Force" }],
   icons: {
     icon: '/logo.svg',
     shortcut: '/logo.svg',
     apple: '/logo.svg',
   },
   openGraph: {
-    title: "W3force - AI-Powered Personal Finance Made Simple",
+    title: "W3Force - AI-Powered Personal Finance Made Simple",
     description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
     type: "website",
-    siteName: "W3force",
+    siteName: "W3Force",
     url: "https://www.w3force.net",
     locale: "en_US",
     images: [
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "W3force - AI-Powered Personal Finance Tools",
+        alt: "W3Force - AI-Powered Personal Finance Tools",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "W3force - AI-Powered Personal Finance Made Simple",
+    title: "W3Force - AI-Powered Personal Finance Made Simple",
     description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
     images: ["/og-image.png"],
     creator: "@w3force",

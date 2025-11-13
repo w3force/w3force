@@ -1,6 +1,6 @@
-import W3forceLogo from '@/components/W3forceLogo';
-import W3forceLogoAlt from '@/components/W3forceLogoAlt';
-import W3forceLogoMark from '@/components/W3forceLogoMark';
+import W3ForceLogo from '@/components/W3ForceLogo';
+import W3ForceLogoAlt from '@/components/W3ForceLogoAlt';
+import W3ForceLogoMark from '@/components/W3ForceLogoMark';
 
 export default function LogoComparisonPage() {
   return (
@@ -11,7 +11,7 @@ export default function LogoComparisonPage() {
             Choose Your <span className="gradient-text">Logo & Tagline</span>
           </h1>
           <p className="text-xl text-gray-600">
-            Three professional options for W3force branding
+            Three professional options for W3Force branding
           </p>
         </div>
 
@@ -20,7 +20,7 @@ export default function LogoComparisonPage() {
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
             <div className="bg-gradient-to-br from-violet-500 via-pink-500 to-orange-500 p-8 text-white text-center">
               <div className="flex justify-center mb-4">
-                <W3forceLogo className="w-32 h-32 bg-white rounded-2xl p-4" />
+                <W3ForceLogo className="w-32 h-32 bg-white rounded-2xl p-4" />
               </div>
               <h2 className="text-3xl font-bold mb-2">Option 1</h2>
               <p className="text-lg opacity-90">Current Design</p>
@@ -28,7 +28,7 @@ export default function LogoComparisonPage() {
             
             <div className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-center">
-                <span className="gradient-text">W3force</span>
+                <span className="gradient-text">W3Force</span>
               </h3>
               <p className="text-center text-gray-600 font-semibold mb-6">
                 AI-Powered Innovation
@@ -76,7 +76,7 @@ export default function LogoComparisonPage() {
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden border-4 border-violet-500">
             <div className="bg-gradient-to-br from-violet-500 via-pink-500 to-orange-500 p-8 text-white text-center">
               <div className="flex justify-center mb-4">
-                <W3forceLogoAlt className="w-32 h-32 bg-white rounded-2xl p-4" />
+                <W3ForceLogoAlt className="w-32 h-32 bg-white rounded-2xl p-4" />
               </div>
               <h2 className="text-3xl font-bold mb-2">Option 2</h2>
               <p className="text-lg opacity-90">Alternative Design</p>
@@ -87,7 +87,7 @@ export default function LogoComparisonPage() {
             
             <div className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-center">
-                <span className="gradient-text">W3force</span>
+                <span className="gradient-text">W3Force</span>
               </h3>
               <p className="text-center text-gray-600 font-semibold mb-2">
                 Architecting Intelligent Solutions
@@ -138,7 +138,7 @@ export default function LogoComparisonPage() {
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden border-4 border-indigo-500">
             <div className="bg-gradient-to-br from-slate-900 via-violet-700 to-blue-500 p-8 text-white text-center">
               <div className="flex justify-center mb-4">
-                <W3forceLogoMark className="w-32 h-32 bg-white/10 rounded-2xl p-4" />
+                <W3ForceLogoMark className="w-32 h-32 bg-white/10 rounded-2xl p-4" />
               </div>
               <h2 className="text-3xl font-bold mb-2">Option 3</h2>
               <p className="text-lg opacity-90">Executive Mark</p>
@@ -149,7 +149,7 @@ export default function LogoComparisonPage() {
             
             <div className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-center">
-                <span className="gradient-text">W3force</span>
+                <span className="gradient-text">W3Force</span>
               </h3>
               <p className="text-center text-gray-600 font-semibold mb-2">
                 Secure Intelligence Delivered

@@ -1,9 +1,9 @@
-# W3force Brand Assets
+# W3Force Brand Assets
 
 ## 🎨 Logo & Tagline
 
 ### Logo Design
-The W3force logo features:
+The W3Force logo features:
 - **W3 Pattern**: Representing the three W's of web (World Wide Web) with a modern twist
 - **Lightning Bolt**: Symbolizing speed, power, and innovation (the "force")
 - **AI Circuit Dots**: Small dots and connections representing AI and neural networks
@@ -102,7 +102,7 @@ Maintain clear space around the logo equal to 25% of the logo height on all side
 ## 🖼️ Logo Files
 
 ### Available Files
-- `components/W3forceLogo.tsx` - React component (scalable)
+- `components/W3ForceLogo.tsx` - React component (scalable)
 - `public/logo.svg` - SVG file for favicon and general use
 
 ### Export Formats (if needed)
@@ -115,7 +115,7 @@ You can export the logo in additional formats:
 
 ## 🚀 Quick Reference
 
-**Company Name**: W3force
+**Company Name**: W3Force
 
 **Tagline**: AI-Powered Innovation
 
@@ -131,7 +131,7 @@ You can export the logo in additional formats:
 
 ### In Marketing Materials
 ```
-W3force
+W3Force
 AI-Powered Innovation
 
 Building intelligent applications
@@ -140,7 +140,7 @@ that transform businesses
 
 ### In Email Signatures
 ```
-[Logo] W3force
+[Logo] W3Force
 AI-Powered Innovation
 info@w3force.com
 ```
@@ -148,7 +148,7 @@ info@w3force.com
 ### On Business Cards
 ```
 [Logo]
-W3force
+W3Force
 AI-Powered Innovation
 ---
 Your Name
@@ -158,4 +158,4 @@ email@w3force.com
 
 ---
 
-This brand identity creates a modern, professional image that reflects W3force's expertise in AI-powered software development. 🎨✨
+This brand identity creates a modern, professional image that reflects W3Force's expertise in AI-powered software development. 🎨✨

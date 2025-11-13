@@ -1,4 +1,4 @@
-export default function W3forceLogo({ className = "w-12 h-12" }: { className?: string }) {
+export default function W3ForceLogo({ className = "w-12 h-12" }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 100 100"

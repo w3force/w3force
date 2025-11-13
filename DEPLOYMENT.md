@@ -1,8 +1,8 @@
-# W3force Website - Deployment Guide
+# W3Force Website - Deployment Guide
 
 ## ✅ Website Successfully Created!
 
-Your W3force company website has been created with the following features:
+Your W3Force company website has been created with the following features:
 
 ### 📁 Pages Created
 1. **Home Page** (`/`) - Hero section, company overview, and featured Nestly project
@@ -67,7 +67,7 @@ vercel --prod
 ```bash
 cd /Users/vinodhchandrakumar/Downloads/w3force
 git add .
-git commit -m "Initial W3force website"
+git commit -m "Initial W3Force website"
 ```
 
 2. **Create GitHub Repository**:
@@ -122,7 +122,7 @@ Update the following files with your actual company information:
 
 **Company Details** (`app/layout.tsx`):
 - Update meta description
-- Add your logo (replace W3force text logo)
+- Add your logo (replace W3Force text logo)
 
 **About Page** (`app/about/page.tsx`):
 - Update mission and vision statements
@@ -224,7 +224,7 @@ For Vercel-specific issues, visit: https://vercel.com/docs
 
 ## 🎉 Your Website is Ready!
 
-Your W3force website is now complete and ready to deploy. The modern design with AI-focused branding perfectly showcases your software development expertise and the Nestly Advisor project.
+Your W3Force website is now complete and ready to deploy. The modern design with AI-focused branding perfectly showcases your software development expertise and the Nestly Advisor project.
 
 **Current Status**: ✅ Development server running on http://localhost:3001
 

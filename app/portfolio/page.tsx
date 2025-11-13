@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Our Tools - W3force',
+  title: 'Our Tools - W3Force',
   description: 'Explore our suite of AI-powered personal finance tools including Nestly Advisor, My Budget, and My Stocks.',
 };
 

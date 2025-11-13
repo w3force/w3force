@@ -1,4 +1,4 @@
-# W3force Logo & Tagline Options
+# W3Force Logo & Tagline Options
 
 ## 🎨 OPTION 1: Current Design
 **Visual Style**: Dynamic & Energetic
@@ -106,7 +106,7 @@
 
 If you prefer Option 2, I can update:
 
-1. Replace `W3forceLogo` import with `W3forceLogoAlt` in:
+1. Replace `W3ForceLogo` import with `W3ForceLogoAlt` in:
    - `components/Navbar.tsx`
    - `components/Footer.tsx`
 
@@ -124,7 +124,7 @@ Just let me know which option and tagline you prefer!
 
 ## 💡 Recommendation
 
-**For W3force**, I'd suggest:
+**For W3Force**, I'd suggest:
 
 - **If targeting startups/consumers**: Option 1 (current)
   - More approachable and energetic

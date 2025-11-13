@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import W3forceLogo from './W3forceLogo';
+import W3ForceLogo from './W3ForceLogo';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,9 +13,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <W3forceLogo className="w-10 h-10" />
+            <W3ForceLogo className="w-10 h-10" />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold gradient-text leading-none">W3force</span>
+              <span className="text-2xl font-bold gradient-text leading-none">W3Force</span>
               <span className="text-[10px] text-gray-500 leading-none mt-0.5">AI-Powered Innovation</span>
             </div>
           </Link>

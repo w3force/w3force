@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Join Early Access - W3force',
-  description: 'Get early access to W3force AI-powered personal finance tools. Join thousands planning smarter.',
+  title: 'Join Early Access - W3Force',
+  description: 'Get early access to W3Force AI-powered personal finance tools. Join thousands planning smarter.',
 };
 
 export default function ContactPage() {
@@ -90,7 +90,7 @@ export default function ContactPage() {
 
               {/* Why Choose Us */}
               <div className="mt-12 p-8 bg-gradient-to-br from-violet-50 to-pink-50 rounded-2xl">
-                <h3 className="text-xl font-bold mb-4">Why W3force Tools?</h3>
+                <h3 className="text-xl font-bold mb-4">Why W3Force Tools?</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-violet-600 mr-2">✓</span>
@@ -130,7 +130,7 @@ export default function ContactPage() {
 
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Is W3force really free?</h3>
+              <h3 className="text-xl font-semibold mb-2">Is W3Force really free?</h3>
               <p className="text-gray-600">
                 Yes! Our financial planning tools are completely free to use. No hidden fees,
                 no subscriptions, no credit card required. We believe everyone deserves access

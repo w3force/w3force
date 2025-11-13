@@ -1,10 +1,10 @@
-# W3force - AI-Powered Software Development
+# W3Force - AI-Powered Software Development
 
-![W3force](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![W3Force](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwind-css)
 
-W3force is a modern company website showcasing AI-powered software development services and portfolio. Built with Next.js 16, featuring a beautiful gradient design with violet, pink, and orange color scheme.
+W3Force is a modern company website showcasing AI-powered software development services and portfolio. Built with Next.js 16, featuring a beautiful gradient design with violet, pink, and orange color scheme.
 
 ## 🚀 Features
 
@@ -184,7 +184,7 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-Built with ❤️ by W3force
+Built with ❤️ by W3Force
 
 ## Deploy on Vercel
 

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - W3force',
-  description: 'Learn about W3force and our mission to make personal finance simple through AI-powered tools.',
+  title: 'About Us - W3Force',
+  description: 'Learn about W3Force and our mission to make personal finance simple through AI-powered tools.',
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">
-              About <span className="gradient-text">W3force</span>
+              About <span className="gradient-text">W3Force</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Pioneering the future of software development with AI-first solutions
@@ -31,7 +31,7 @@ export default function AboutPage() {
                 Our <span className="gradient-text">Mission</span>
               </h2>
               <p className="text-gray-600 text-lg mb-4">
-                At W3force, we believe in the transformative power of artificial intelligence.
+                At W3Force, we believe in the transformative power of artificial intelligence.
                 Our mission is to democratize AI technology by building intuitive, powerful
                 applications that solve real-world problems.
               </p>
@@ -129,12 +129,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Why Choose W3force */}
+      {/* Why Choose W3Force */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
-              Why <span className="gradient-text">W3force</span>
+              Why <span className="gradient-text">W3Force</span>
             </h2>
             <p className="text-xl text-gray-600">
               Built for young professionals, families, and anyone who wants clarity about their finances
@@ -179,7 +179,7 @@ export default function AboutPage() {
             Start Your <span className="gradient-text">Financial Journey</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join thousands of people taking control of their financial future with W3force tools.
+            Join thousands of people taking control of their financial future with W3Force tools.
           </p>
           <a
             href="/contact"

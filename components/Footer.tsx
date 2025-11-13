@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import W3forceLogo from './W3forceLogo';
+import W3ForceLogo from './W3ForceLogo';
 
 export default function Footer() {
   return (
@@ -9,9 +9,9 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <W3forceLogo className="w-12 h-12" />
+              <W3ForceLogo className="w-12 h-12" />
               <div>
-                <h3 className="text-2xl font-bold gradient-text leading-none">W3force</h3>
+                <h3 className="text-2xl font-bold gradient-text leading-none">W3Force</h3>
                 <p className="text-xs text-gray-400 mt-1">AI-Powered Innovation</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} W3force. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} W3Force. All rights reserved.</p>
         </div>
       </div>
     </footer>
