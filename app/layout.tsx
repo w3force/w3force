@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "W3force - AI-Powered Innovation",
-  description: "Pioneering AI-powered software and app development solutions. Building intelligent applications that transform businesses.",
-  keywords: ["AI development", "software development", "app development", "artificial intelligence", "machine learning", "W3force"],
+  title: "W3force - AI-Powered Personal Finance",
+  description: "Simple, AI-powered tools for retirement planning, budgeting, and investment tracking. Take control of your financial future—no finance degree needed.",
+  keywords: ["retirement planning", "budget calculator", "investment tracking", "personal finance", "financial planning", "401k calculator", "AI finance"],
   authors: [{ name: "W3force" }],
   icons: {
     icon: '/logo.svg',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     apple: '/logo.svg',
   },
   openGraph: {
-    title: "W3force - AI-Powered Innovation",
-    description: "Building intelligent applications that transform businesses",
+    title: "W3force - AI-Powered Personal Finance Made Simple",
+    description: "Tools that help you understand your money, plan smarter, and build wealth",
     type: "website",
     siteName: "W3force",
   },

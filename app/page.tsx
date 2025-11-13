@@ -12,42 +12,42 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
-              Who We <span className="gradient-text">Are</span>
+              What We <span className="gradient-text">Build</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              W3force is a cutting-edge software development company specializing in AI-powered applications.
-              We transform complex ideas into elegant, intelligent solutions.
+              AI-powered financial tools that help you plan for retirement, manage your budget, 
+              track investments, and achieve your money goals with confidence.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* AI Development */}
+            {/* Retirement Planning */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100 hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">🤖</div>
-              <h3 className="text-2xl font-bold mb-3 text-violet-900">AI Integration</h3>
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-2xl font-bold mb-3 text-violet-900">Retirement Planning</h3>
               <p className="text-gray-700">
-                Integrate cutting-edge AI and machine learning capabilities into your applications
-                for smarter, more efficient solutions.
+                Calculate your future with precision. Run what-if scenarios, plan contributions, 
+                and see exactly when you can retire with the lifestyle you want.
               </p>
             </div>
 
-            {/* Web Development */}
+            {/* Smart Budgeting */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">💻</div>
-              <h3 className="text-2xl font-bold mb-3 text-pink-900">Web Applications</h3>
+              <div className="text-4xl mb-4">�</div>
+              <h3 className="text-2xl font-bold mb-3 text-pink-900">Smart Budgeting</h3>
               <p className="text-gray-700">
-                Build modern, responsive web applications with the latest technologies
-                including Next.js, React, and TypeScript.
+                Take control of your spending. Track expenses, manage bills, and get AI insights 
+                on where your money goes and how to save more.
               </p>
             </div>
 
-            {/* Mobile Development */}
+            {/* Investment Tracking */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-2xl font-bold mb-3 text-orange-900">Mobile Apps</h3>
+              <div className="text-4xl mb-4">�</div>
+              <h3 className="text-2xl font-bold mb-3 text-orange-900">Investment Tracking</h3>
               <p className="text-gray-700">
-                Create powerful mobile applications with intuitive interfaces
-                and seamless user experiences across all platforms.
+                Monitor your portfolio in real-time. Track stocks, analyze performance, 
+                and make informed decisions with live market data.
               </p>
             </div>
           </div>
@@ -59,10 +59,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
-              Featured <span className="gradient-text">Project</span>
+              Featured <span className="gradient-text">Tool</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Showcasing our expertise in AI-powered financial planning
+              Our flagship retirement planning calculator
             </p>
           </div>
 
@@ -70,12 +70,13 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="p-8 lg:p-12">
                 <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
-                  AI Financial Tool
+                  Retirement Planning
                 </div>
                 <h3 className="text-3xl font-bold mb-4">Nestly Advisor</h3>
                 <p className="text-gray-600 mb-6 text-lg">
-                  An intelligent retirement planning tool that helps users project their savings,
-                  401(k), Social Security, and investments. Watch your future grow, one nest at a time.
+                  Plan your retirement with confidence. See exactly how your 401(k), savings, 
+                  Social Security, and Medicare will add up over time. Run what-if scenarios 
+                  to find the perfect balance between saving today and enjoying tomorrow.
                 </p>
                 
                 <div className="space-y-4 mb-8">
@@ -140,16 +141,16 @@ export default function Home() {
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Ready to Build Something <span className="gradient-text">Amazing?</span>
+            Ready to Take Control of <span className="gradient-text">Your Money?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss how we can help bring your ideas to life with cutting-edge technology and AI.
+            Join thousands of people using W3force tools to plan smarter, save more, and build lasting wealth.
           </p>
           <Link
             href="/contact"
             className="inline-block px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            Start Your Project
+            Join Early Access
           </Link>
         </div>
       </section>

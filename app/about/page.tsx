@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Us - W3force',
-  description: 'Learn about W3force, our mission, and our expertise in AI-powered software development.',
+  description: 'Learn about W3force and our mission to make personal finance simple through AI-powered tools.',
 };
 
 export default function AboutPage() {
@@ -100,61 +100,74 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">☁️</div>
-              <h3 className="text-xl font-bold mb-3">Cloud Solutions</h3>
+              <div className="text-4xl mb-4">🤖</div>
+              <h3 className="text-xl font-bold mb-3">AI Recommendations</h3>
               <p className="text-gray-600">
-                Deploy and scale applications on AWS, Azure, and Google Cloud with optimal
-                performance.
+                Get personalized financial insights powered by intelligent algorithms
+                that learn from your goals and behavior.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">🔍</div>
-              <h3 className="text-xl font-bold mb-3">AI Consulting</h3>
+              <div className="text-4xl mb-4">�</div>
+              <h3 className="text-xl font-bold mb-3">What-If Scenarios</h3>
               <p className="text-gray-600">
-                Strategic guidance on AI implementation, data strategy, and digital
-                transformation.
+                Test different financial strategies instantly. See how changes in
+                contributions or retirement age affect your future.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-xl font-bold mb-3">UI/UX Design</h3>
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="text-xl font-bold mb-3">Privacy First</h3>
               <p className="text-gray-600">
-                Design beautiful, intuitive interfaces that delight users and drive
-                engagement.
+                Your financial data never leaves your device. All calculations run
+                locally in your browser for maximum privacy.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Tech Stack */}
+      {/* Why Choose W3force */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
-              Our Tech <span className="gradient-text">Stack</span>
+              Why <span className="gradient-text">W3force</span>
             </h2>
             <p className="text-xl text-gray-600">
-              We work with cutting-edge technologies
+              Built for young professionals, families, and anyone who wants clarity about their finances
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              'React', 'Next.js', 'TypeScript', 'Node.js',
-              'Python', 'TensorFlow', 'PyTorch', 'OpenAI',
-              'AWS', 'Vercel', 'Docker', 'PostgreSQL',
-              'MongoDB', 'Tailwind CSS', 'GraphQL', 'REST APIs'
-            ].map((tech) => (
-              <div
-                key={tech}
-                className="bg-gradient-to-br from-violet-50 to-pink-50 p-6 rounded-xl text-center font-semibold text-gray-800 hover:shadow-lg transition-shadow"
-              >
-                {tech}
-              </div>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center p-8">
+              <div className="text-5xl mb-4">✨</div>
+              <h3 className="text-2xl font-bold mb-3">Simple</h3>
+              <p className="text-gray-600 text-lg">
+                No finance degree needed. Our tools speak your language and guide you
+                every step of the way.
+              </p>
+            </div>
+
+            <div className="text-center p-8">
+              <div className="text-5xl mb-4">👤</div>
+              <h3 className="text-2xl font-bold mb-3">Personalized</h3>
+              <p className="text-gray-600 text-lg">
+                AI-powered insights tailored to your unique situation, goals, and
+                timeline.
+              </p>
+            </div>
+
+            <div className="text-center p-8">
+              <div className="text-5xl mb-4">⚡</div>
+              <h3 className="text-2xl font-bold mb-3">Automated</h3>
+              <p className="text-gray-600 text-lg">
+                Get instant calculations and recommendations. Spend less time crunching
+                numbers, more time living.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -163,16 +176,16 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6" style={{ color: '#374151' }}>
-            Let&apos;s Work <span className="gradient-text">Together</span>
+            Start Your <span className="gradient-text">Financial Journey</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Ready to transform your ideas into reality with AI-powered solutions?
+            Join thousands of people taking control of their financial future with W3force tools.
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            Get In Touch
+            Join Early Access
           </a>
         </div>
       </section>

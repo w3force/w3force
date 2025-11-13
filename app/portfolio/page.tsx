@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Portfolio - W3force',
-  description: 'Explore our portfolio of innovative applications including Nestly Advisor, My Budget, and My Stocks.',
+  title: 'Our Tools - W3force',
+  description: 'Explore our suite of AI-powered personal finance tools including Nestly Advisor, My Budget, and My Stocks.',
 };
 
 export default function PortfolioPage() {
@@ -14,10 +14,10 @@ export default function PortfolioPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6" style={{ color: '#374151' }}>
-              Our <span className="gradient-text">Portfolio</span>
+              Our <span className="gradient-text">Financial Tools</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Showcasing innovative AI-powered solutions that make a difference
+              AI-powered solutions that help you plan, budget, and grow your wealth with confidence
             </p>
           </div>
         </div>
@@ -29,16 +29,16 @@ export default function PortfolioPage() {
           {/* Project Header */}
           <div className="mb-12">
             <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
-              Featured Project
+              Retirement Planning Tool
             </div>
             <h2 className="text-4xl font-bold mb-4">Nestly Advisor</h2>
             <p className="text-xl text-gray-600 mb-6">
               Watch your future grow, one nest at a time.
             </p>
             <p className="text-lg text-gray-600 mb-8 max-w-4xl">
-              Nestly helps you project your savings, 401(k), Social Security, Medicare costs, 
-              and investments over time — guiding you to build a secure financial future. 
-              An intelligent retirement planning tool with instant projections and privacy-first design.
+              Plan your retirement with complete confidence. Nestly helps you see exactly how your 
+              401(k), savings, Social Security, and Medicare will add up over time. Run what-if scenarios 
+              to find the perfect balance between living today and securing tomorrow—all in one simple calculator.
             </p>
             
             <a

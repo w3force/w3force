@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - W3force',
-  description: 'Get in touch with W3force to discuss your AI-powered software development needs.',
+  title: 'Join Early Access - W3force',
+  description: 'Get early access to W3force AI-powered personal finance tools. Join thousands planning smarter.',
 };
 
 export default function ContactPage() {
@@ -14,10 +14,10 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6" style={{ color: '#374151' }}>
-              Get In <span className="gradient-text">Touch</span>
+              Join Early <span className="gradient-text">Access</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Let&apos;s discuss how we can help bring your ideas to life
+              Be the first to try our new AI-powered financial tools
             </p>
           </div>
         </div>
@@ -30,12 +30,12 @@ export default function ContactPage() {
             {/* Contact Information */}
             <div>
               <h2 className="text-3xl font-bold mb-6" style={{ color: '#374151' }}>
-                Let&apos;s Build Something <span className="gradient-text">Amazing</span>
+                Get Updates on <span className="gradient-text">New Tools</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Whether you have a project in mind or just want to learn more about our services,
-                we&apos;d love to hear from you. Our team is ready to help you transform your ideas
-                into AI-powered solutions.
+                Sign up to get early access to our latest financial planning tools. Be among
+                the first to try new features, provide feedback, and help shape the future of
+                personal finance.
               </p>
 
               <div className="space-y-6">
