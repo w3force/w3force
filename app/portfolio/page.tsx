@@ -213,21 +213,21 @@ export default function PortfolioPage() {
             </div>
           </div>
 
-          {/* Tech Stack */}
+          {/* Product Benefits */}
           <div className="mb-16">
             <h3 className="text-3xl font-bold mb-8">
-              Tech <span className="gradient-text">Stack</span>
+              What Makes It <span className="gradient-text">Special</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                'Next.js',
-                'React',
-                'TypeScript',
-                'Tailwind CSS',
-                'Vercel',
-                'Chart.js',
-                'Local Storage',
-                'PWA'
+                'Lightning Fast',
+                'Works Offline',
+                'Mobile Friendly',
+                'Beautiful Charts',
+                'Always Available',
+                'No Installation',
+                'Auto-Save',
+                'Instant Updates'
               ].map((tech) => (
                 <div
                   key={tech}
@@ -440,13 +440,13 @@ export default function PortfolioPage() {
             </div>
           </div>
 
-          {/* Tech Stack */}
+          {/* Product Benefits */}
           <div className="mb-16">
             <h3 className="text-3xl font-bold mb-8">
-              Tech <span className="gradient-text">Stack</span>
+              What Makes It <span className="gradient-text">Special</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Windows Phone SDK', 'C#', '.NET Framework', 'XAML', 'SQLite', 'MVVM Pattern', 'Live Tiles', 'Metro Design'].map((tech) => (
+              {['Touch Optimized', 'Native Performance', 'Beautiful Design', 'Offline First', 'Quick Launch', 'Live Updates', 'Intuitive UI', 'Always Synced'].map((tech) => (
                 <div
                   key={tech}
                   className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
@@ -616,13 +616,13 @@ export default function PortfolioPage() {
             </div>
           </div>
 
-          {/* Tech Stack */}
+          {/* Product Benefits */}
           <div className="mb-16">
             <h3 className="text-3xl font-bold mb-8">
-              Tech <span className="gradient-text">Stack</span>
+              What Makes It <span className="gradient-text">Special</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['React Native', 'TypeScript', 'REST APIs', 'Redux', 'Real-time Data', 'iOS & Android', 'Firebase', 'Chart Libraries'].map((tech) => (
+              {['Cross-Platform', 'Real-Time Updates', 'Stock Alerts', 'Clean Interface', 'Live Market Data', 'iOS & Android', 'Secure & Fast', 'Easy to Use'].map((tech) => (
                 <div
                   key={tech}
                   className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
