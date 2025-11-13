@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/nestly/screenshot-1-home.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "W3force - AI-Powered Personal Finance Tools",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "W3force - AI-Powered Personal Finance Made Simple",
     description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
-    images: ["/nestly/screenshot-1-home.png"],
+    images: ["/og-image.png"],
     creator: "@w3force",
   },
   robots: {
