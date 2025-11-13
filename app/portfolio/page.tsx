@@ -213,32 +213,6 @@ export default function PortfolioPage() {
             </div>
           </div>
 
-          {/* Product Benefits */}
-          <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8">
-              What Makes It <span className="gradient-text">Special</span>
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                'Lightning Fast',
-                'Works Offline',
-                'Mobile Friendly',
-                'Beautiful Charts',
-                'Always Available',
-                'No Installation',
-                'Auto-Save',
-                'Instant Updates'
-              ].map((tech) => (
-                <div
-                  key={tech}
-                  className="bg-gradient-to-br from-violet-50 to-pink-50 p-4 rounded-xl text-center font-semibold text-gray-800"
-                >
-                  {tech}
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Project Outcomes */}
           <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
             <h3 className="text-3xl font-bold mb-8 text-center">
@@ -440,23 +414,6 @@ export default function PortfolioPage() {
             </div>
           </div>
 
-          {/* Product Benefits */}
-          <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8">
-              What Makes It <span className="gradient-text">Special</span>
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Touch Optimized', 'Native Performance', 'Beautiful Design', 'Offline First', 'Quick Launch', 'Live Updates', 'Intuitive UI', 'Always Synced'].map((tech) => (
-                <div
-                  key={tech}
-                  className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
-                >
-                  {tech}
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Project Highlights */}
           <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
             <h3 className="text-3xl font-bold mb-8 text-center">
@@ -613,23 +570,6 @@ export default function PortfolioPage() {
                 />
                 <p className="text-center mt-4 text-gray-600 font-medium">Market Data</p>
               </div>
-            </div>
-          </div>
-
-          {/* Product Benefits */}
-          <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8">
-              What Makes It <span className="gradient-text">Special</span>
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Cross-Platform', 'Real-Time Updates', 'Stock Alerts', 'Clean Interface', 'Live Market Data', 'iOS & Android', 'Secure & Fast', 'Easy to Use'].map((tech) => (
-                <div
-                  key={tech}
-                  className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
-                >
-                  {tech}
-                </div>
-              ))}
             </div>
           </div>
 
