@@ -109,7 +109,7 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">�</div>
+              <div className="text-4xl mb-4">🔮</div>
               <h3 className="text-xl font-bold mb-3">What-If Scenarios</h3>
               <p className="text-gray-600">
                 Test different financial strategies instantly. See how changes in
