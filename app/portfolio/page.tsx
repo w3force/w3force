@@ -13,7 +13,7 @@ export default function PortfolioPage() {
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6" style={{ color: '#374151' }}>
+            <h1 className="text-5xl font-bold mb-6">
               Our <span className="gradient-text">Financial Tools</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -53,7 +53,7 @@ export default function PortfolioPage() {
 
           {/* Key Features */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -115,7 +115,7 @@ export default function PortfolioPage() {
 
           {/* Screenshots Gallery */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               App <span className="gradient-text">Screenshots</span>
             </h3>
             
@@ -215,7 +215,7 @@ export default function PortfolioPage() {
 
           {/* Tech Stack */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Tech <span className="gradient-text">Stack</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -241,7 +241,7 @@ export default function PortfolioPage() {
 
           {/* Project Outcomes */}
           <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
-            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8 text-center">
               Project <span className="gradient-text">Highlights</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -293,7 +293,7 @@ export default function PortfolioPage() {
 
           {/* Key Features */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -367,7 +367,7 @@ export default function PortfolioPage() {
 
           {/* App Screenshots */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               App <span className="gradient-text">Screenshots</span>
             </h3>
             
@@ -442,7 +442,7 @@ export default function PortfolioPage() {
 
           {/* Tech Stack */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Tech <span className="gradient-text">Stack</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -459,7 +459,7 @@ export default function PortfolioPage() {
 
           {/* Project Highlights */}
           <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
-            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8 text-center">
               Project <span className="gradient-text">Highlights</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -502,7 +502,7 @@ export default function PortfolioPage() {
 
           {/* Key Features */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -543,7 +543,7 @@ export default function PortfolioPage() {
 
           {/* App Screenshots */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               App <span className="gradient-text">Screenshots</span>
             </h3>
             
@@ -618,7 +618,7 @@ export default function PortfolioPage() {
 
           {/* Tech Stack */}
           <div className="mb-16">
-            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8">
               Tech <span className="gradient-text">Stack</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -635,7 +635,7 @@ export default function PortfolioPage() {
 
           {/* Project Highlights */}
           <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
-            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#374151' }}>
+            <h3 className="text-3xl font-bold mb-8 text-center">
               Project <span className="gradient-text">Highlights</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

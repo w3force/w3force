@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6" style={{ color: '#374151' }}>
+              <h2 className="text-3xl font-bold mb-6">
                 Our <span className="gradient-text">Mission</span>
               </h2>
               <p className="text-gray-600 text-lg mb-4">
@@ -42,7 +42,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold mb-6" style={{ color: '#374151' }}>
+              <h2 className="text-3xl font-bold mb-6">
                 Our <span className="gradient-text">Vision</span>
               </h2>
               <p className="text-gray-600 text-lg mb-4">
@@ -63,8 +63,8 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
-              What We <span className="gradient-text">Do</span>
+            <h2 className="text-4xl font-bold mb-4">
+              What We <span className="gradient-text">Build</span>
             </h2>
             <p className="text-xl text-gray-600">
               Comprehensive AI-powered development services
@@ -133,7 +133,7 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4" style={{ color: '#374151' }}>
+            <h2 className="text-4xl font-bold mb-4">
               Why <span className="gradient-text">W3force</span>
             </h2>
             <p className="text-xl text-gray-600">
@@ -175,7 +175,7 @@ export default function AboutPage() {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6" style={{ color: '#374151' }}>
+          <h2 className="text-4xl font-bold mb-6">
             Start Your <span className="gradient-text">Financial Journey</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">

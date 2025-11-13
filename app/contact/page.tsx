@@ -13,7 +13,7 @@ export default function ContactPage() {
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6" style={{ color: '#374151' }}>
+            <h1 className="text-5xl font-bold mb-6">
               Join Early <span className="gradient-text">Access</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold mb-6" style={{ color: '#374151' }}>
+              <h2 className="text-3xl font-bold mb-6">
                 Get Updates on <span className="gradient-text">New Tools</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -137,7 +137,7 @@ export default function ContactPage() {
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#374151' }}>
+          <h2 className="text-3xl font-bold text-center mb-12">
             Frequently Asked <span className="gradient-text">Questions</span>
           </h2>
 

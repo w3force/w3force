@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #675555;
   --primary: #8b5cf6;
   --secondary: #ec4899;
   --accent: #f97316;
@@ -20,8 +20,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+   
+    --foreground: #675555;
+
   }
 }
 
