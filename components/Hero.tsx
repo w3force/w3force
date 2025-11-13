@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <div className="inline-block mb-8 px-6 py-2 bg-white/50 backdrop-blur-sm rounded-full border border-violet-200">
-          <p className="text-sm font-semibold gradient-text">AI-Powered Innovation</p>
+          <p className="text-sm font-semibold gradient-text">Personal Finance Tools</p>
         </div>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
           <span className="gradient-text">AI-Powered Personal Finance.</span>
