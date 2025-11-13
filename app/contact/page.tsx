@@ -53,19 +53,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Location */}
-                <div className="flex items-start">
-                  <div className="text-3xl mr-4">📍</div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Location</h3>
-                    <p className="text-gray-600">
-                      San Francisco Bay Area
-                      <br />
-                      United States
-                    </p>
-                  </div>
-                </div>
-
                 {/* Social */}
                 <div className="flex items-start">
                   <div className="text-3xl mr-4">🔗</div>
