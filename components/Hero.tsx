@@ -16,42 +16,41 @@ export default function Hero() {
           <p className="text-sm font-semibold gradient-text">AI-Powered Innovation</p>
         </div>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-          <span className="gradient-text">Intelligent Software</span>
+          <span className="gradient-text">AI-Powered Personal Finance.</span>
           <br />
-          <span className="text-gray-800">That Transforms Business</span>
+          <span className="text-gray-800">Made Simple.</span>
         </h1>
         <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          We craft AI-powered applications that solve real-world problems.
-          From concept to deployment, we build the future of software.
+          Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
             href="/portfolio"
             className="px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity shadow-lg"
           >
-            View Our Work
+            Explore Our Tools
           </Link>
           <Link
             href="/contact"
             className="px-8 py-4 bg-white text-violet-600 rounded-full text-lg font-semibold hover:shadow-lg transition-shadow border-2 border-violet-600"
           >
-            Get In Touch
+            Join Early Access
           </Link>
         </div>
 
         {/* Stats */}
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
-            <div className="text-4xl font-bold gradient-text mb-2">AI-First</div>
-            <p className="text-gray-600">Approach to Development</p>
+            <div className="text-4xl font-bold gradient-text mb-2">Retirement</div>
+            <p className="text-gray-600">Planning Made Easy</p>
           </div>
           <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
-            <div className="text-4xl font-bold gradient-text mb-2">Modern</div>
-            <p className="text-gray-600">Tech Stack</p>
+            <div className="text-4xl font-bold gradient-text mb-2">Smart</div>
+            <p className="text-gray-600">Budget Tracking</p>
           </div>
           <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
-            <div className="text-4xl font-bold gradient-text mb-2">Innovative</div>
-            <p className="text-gray-600">Solutions</p>
+            <div className="text-4xl font-bold gradient-text mb-2">Investment</div>
+            <p className="text-gray-600">Portfolio Insights</p>
           </div>
         </div>
       </div>
