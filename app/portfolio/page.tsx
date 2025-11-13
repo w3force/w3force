@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Portfolio - W3force',
-  description: 'Explore our portfolio of AI-powered applications including Nestly Advisor and My Stocks app.',
+  description: 'Explore our portfolio of innovative applications including Nestly Advisor, My Budget, and My Stocks.',
 };
 
 export default function PortfolioPage() {
@@ -262,8 +262,226 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* My Stocks - Second Project */}
+      {/* My Budget - Second Project */}
       <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Project Header */}
+          <div className="mb-12">
+            <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
+              Windows Phone App
+            </div>
+            <h2 className="text-4xl font-bold mb-4">My Budget</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              Complete personal finance management solution
+            </p>
+            <p className="text-lg text-gray-600 mb-8 max-w-4xl">
+              My Budget is a comprehensive personal finance management application designed for Windows Phone. 
+              Track expenses, manage multiple accounts, monitor bills, and gain complete control over your finances 
+              with an intuitive Metro-style interface. Perfect for individuals and families looking to stay on top 
+              of their spending and savings goals.
+            </p>
+            
+            <a
+              href="https://www.youtube.com/watch?v=rh43HHvOhOQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity"
+            >
+              Watch Demo Video →
+            </a>
+          </div>
+
+          {/* Key Features */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              Key <span className="gradient-text">Features</span>
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">💳</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Account Management</h4>
+                <p className="text-gray-600">
+                  Manage multiple bank accounts, credit cards, and cash accounts in one place. 
+                  Track balances and monitor all your financial accounts effortlessly.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">🛒</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Expense Tracking</h4>
+                <p className="text-gray-600">
+                  Create and categorize expenses with ease. Track spending patterns, 
+                  set budgets, and get insights into where your money goes each month.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">📋</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Bill Management</h4>
+                <p className="text-gray-600">
+                  Never miss a payment again. Track recurring bills, set reminders, 
+                  and manage all your payment schedules in one convenient location.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">💸</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Transaction History</h4>
+                <p className="text-gray-600">
+                  Comprehensive transaction logging with detailed history. 
+                  Search, filter, and analyze your spending patterns over time.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">📊</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Financial Reports</h4>
+                <p className="text-gray-600">
+                  Generate detailed financial reports and visualizations. 
+                  Understand your spending habits with charts and analytics.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-6 shadow-lg">
+                <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
+                  <span className="text-white text-2xl">⚙️</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3">Customizable Settings</h4>
+                <p className="text-gray-600">
+                  Personalize the app to fit your needs. Configure categories, 
+                  currencies, and preferences to match your financial management style.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* App Screenshots */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              App <span className="gradient-text">Screenshots</span>
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-1-home.png"
+                  alt="My Budget Home Screen"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Get Started</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-2-accounts.jpg"
+                  alt="My Budget Accounts"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Account Management</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-3-expenses.png"
+                  alt="My Budget Expenses"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Expense Tracking</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-4-bills.png"
+                  alt="My Budget Bills"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Bill Management</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-5-transactions.png"
+                  alt="My Budget Transactions"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Transaction History</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-4 shadow-lg">
+                <Image
+                  src="/mybudget/screenshot-6-info.png"
+                  alt="My Budget Information"
+                  width={400}
+                  height={800}
+                  className="rounded-lg w-full h-auto"
+                />
+                <p className="text-center mt-4 text-gray-600 font-medium">Financial Information</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Tech Stack */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8" style={{ color: '#374151' }}>
+              Tech <span className="gradient-text">Stack</span>
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {['Windows Phone SDK', 'C#', '.NET Framework', 'XAML', 'SQLite', 'MVVM Pattern', 'Live Tiles', 'Metro Design'].map((tech) => (
+                <div
+                  key={tech}
+                  className="bg-white border border-gray-200 rounded-xl px-6 py-4 text-center font-semibold text-gray-700 hover:shadow-lg transition-shadow"
+                >
+                  {tech}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Project Highlights */}
+          <div className="bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 rounded-3xl p-12">
+            <h3 className="text-3xl font-bold mb-8 text-center" style={{ color: '#374151' }}>
+              Project <span className="gradient-text">Highlights</span>
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">50K+</div>
+                <p className="text-gray-600">Downloads</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">4.8★</div>
+                <p className="text-gray-600">User Rating</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">Featured</div>
+                <p className="text-gray-600">Windows Store App</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* My Stocks - Third Project */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Project Header */}
           <div className="mb-12">
