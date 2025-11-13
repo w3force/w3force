@@ -33,9 +33,9 @@ export default function ContactPage() {
                 Get Updates on <span className="gradient-text">New Tools</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Sign up to get early access to our latest financial planning tools. Be among
-                the first to try new features, provide feedback, and help shape the future of
-                personal finance.
+                Join our waitlist and be among the first to access new personal finance tools.
+                Get exclusive updates, early access to features, and help us build the future
+                of smart money management.
               </p>
 
               <div className="space-y-6">
@@ -45,10 +45,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <a
-                      href="mailto:info@w3force.com"
+                      href="mailto:hello@w3force.com"
                       className="text-violet-600 hover:text-violet-700"
                     >
-                      info@w3force.com
+                      hello@w3force.com
                     </a>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Location</h3>
                     <p className="text-gray-600">
-                      Silicon Valley, CA
+                      San Francisco Bay Area
                       <br />
                       United States
                     </p>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <div className="text-3xl mr-4">🔗</div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Connect With Us</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2">Follow Our Journey</h3>
                     <div className="flex gap-4">
                       <a
                         href="https://github.com/w3force"
@@ -103,23 +103,23 @@ export default function ContactPage() {
 
               {/* Why Choose Us */}
               <div className="mt-12 p-8 bg-gradient-to-br from-violet-50 to-pink-50 rounded-2xl">
-                <h3 className="text-xl font-bold mb-4">Why Choose W3force?</h3>
+                <h3 className="text-xl font-bold mb-4">Why W3force Tools?</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-violet-600 mr-2">✓</span>
-                    <span>AI-first approach to development</span>
+                    <span>No finance degree required—built for everyone</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-violet-600 mr-2">✓</span>
-                    <span>Experienced team of developers</span>
+                    <span>AI-powered insights personalized to your goals</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-violet-600 mr-2">✓</span>
-                    <span>Modern tech stack and best practices</span>
+                    <span>Your data stays private—all calculations run locally</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-violet-600 mr-2">✓</span>
-                    <span>On-time delivery and quality assurance</span>
+                    <span>Free to use, no hidden fees or subscriptions</span>
                   </li>
                 </ul>
               </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
+              <h3 className="text-2xl font-bold mb-6">Join the Waitlist</h3>
               <ContactForm />
             </div>
           </div>
@@ -143,34 +143,38 @@ export default function ContactPage() {
 
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">What services do you offer?</h3>
+              <h3 className="text-xl font-semibold mb-2">Is W3force really free?</h3>
               <p className="text-gray-600">
-                We specialize in AI-powered software development, including web applications,
-                mobile apps, machine learning solutions, and AI consulting services.
+                Yes! Our financial planning tools are completely free to use. No hidden fees,
+                no subscriptions, no credit card required. We believe everyone deserves access
+                to quality financial planning.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">How long does a typical project take?</h3>
+              <h3 className="text-xl font-semibold mb-2">Is my financial data secure?</h3>
               <p className="text-gray-600">
-                Project timelines vary based on complexity and scope. A simple web application
-                might take 4-8 weeks, while complex AI solutions can take 3-6 months or more.
+                Absolutely. Your financial information never leaves your device. All calculations
+                run locally in your browser, ensuring complete privacy and security. We don't
+                collect, store, or share your personal financial data.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Do you work with startups?</h3>
+              <h3 className="text-xl font-semibold mb-2">When will new tools be available?</h3>
               <p className="text-gray-600">
-                Absolutely! We work with businesses of all sizes, from startups to enterprises.
-                We offer flexible engagement models to fit your needs and budget.
+                We're constantly working on new features and tools. Join our waitlist to be the
+                first to know when we launch new calculators, planning tools, and AI-powered
+                insights for your finances.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">What technologies do you use?</h3>
+              <h3 className="text-xl font-semibold mb-2">Do I need financial expertise to use these tools?</h3>
               <p className="text-gray-600">
-                We use modern technologies including React, Next.js, TypeScript, Python,
-                TensorFlow, PyTorch, AWS, and more. We choose the best tools for each project.
+                Not at all! Our tools are designed for everyone, regardless of financial knowledge.
+                We use simple language, clear explanations, and intuitive interfaces to make
+                financial planning accessible to all.
               </p>
             </div>
           </div>
