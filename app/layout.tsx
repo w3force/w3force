@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.w3force.net'),
   title: "W3force - AI-Powered Personal Finance",
   description: "Simple, AI-powered tools for retirement planning, budgeting, and investment tracking. Take control of your financial future—no finance degree needed.",
   keywords: ["retirement planning", "budget calculator", "investment tracking", "personal finance", "financial planning", "401k calculator", "AI finance"],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
     type: "website",
     siteName: "W3force",
-    url: "https://w3force-company.vercel.app",
+    url: "https://www.w3force.net",
     locale: "en_US",
     images: [
       {
