@@ -26,9 +26,34 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "W3force - AI-Powered Personal Finance Made Simple",
-    description: "Tools that help you understand your money, plan smarter, and build wealth",
+    description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
     type: "website",
     siteName: "W3force",
+    url: "https://w3force-company.vercel.app",
+    locale: "en_US",
+    images: [
+      {
+        url: "/nestly/screenshot-1-home.png",
+        width: 1200,
+        height: 630,
+        alt: "W3force - AI-Powered Personal Finance Tools",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "W3force - AI-Powered Personal Finance Made Simple",
+    description: "Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.",
+    images: ["/nestly/screenshot-1-home.png"],
+    creator: "@w3force",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
