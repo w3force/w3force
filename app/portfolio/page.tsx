@@ -10,13 +10,13 @@ export default function PortfolioPage() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
+      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 fade-in">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">
+            <h1 className="text-5xl font-bold mb-6 stagger-item" style={{animationDelay: '0.3s'}}>
               Our <span className="gradient-text">Financial Tools</span>
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto stagger-item" style={{animationDelay: '0.5s'}}>
               AI-powered solutions that help you plan, budget, and grow your wealth with confidence
             </p>
           </div>

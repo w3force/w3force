@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <>
+    <div className="fade-in">
       <Hero />
 
       {/* Company Overview */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white stagger-item">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
@@ -22,7 +22,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Retirement Planning */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100 hover:shadow-xl transition-shadow">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100 hover:shadow-xl transition-all hover:-translate-y-1 card-hover">
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-2xl font-bold mb-3 text-violet-900">Retirement Planning</h3>
               <p className="text-gray-700">
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
 
             {/* Smart Budgeting */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-xl transition-shadow">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-pink-100 hover:shadow-xl transition-all hover:-translate-y-1 card-hover">
               <div className="text-4xl mb-4">💳</div>
               <h3 className="text-2xl font-bold mb-3 text-pink-900">Smart Budgeting</h3>
               <p className="text-gray-700">
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             {/* Investment Tracking */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-shadow">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-all hover:-translate-y-1 card-hover">
               <div className="text-4xl mb-4">📈</div>
               <h3 className="text-2xl font-bold mb-3 text-orange-900">Investment Tracking</h3>
               <p className="text-gray-700">
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Featured Project - Nestly */}
-      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
+      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 stagger-item">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
@@ -138,7 +138,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-gray-900 text-white stagger-item">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Take Control of <span className="gradient-text">Your Money?</span>
@@ -154,7 +154,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 fade-in">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
@@ -12,18 +12,18 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
-        <div className="inline-block mb-8 px-6 py-2 bg-white/50 backdrop-blur-sm rounded-full border border-violet-200">
+        <div className="inline-block mb-8 px-6 py-2 bg-white/50 backdrop-blur-sm rounded-full border border-violet-200 stagger-item" style={{animationDelay: '0.3s'}}>
           <p className="text-sm font-semibold gradient-text">Personal Finance Tools</p>
         </div>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 stagger-item" style={{animationDelay: '0.5s'}}>
           <span className="gradient-text">AI-Powered Personal Finance.</span>
           <br />
           <span className="text-gray-800">Made Simple.</span>
         </h1>
-        <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto stagger-item" style={{animationDelay: '0.7s'}}>
           Tools that help you understand your money, plan smarter, and build wealth—no finance degree needed.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center stagger-item" style={{animationDelay: '0.9s'}}>
           <Link
             href="/portfolio"
             className="px-8 py-4 gradient-bg text-white rounded-full text-lg font-semibold hover:opacity-90 transition-opacity shadow-lg"
@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 stagger-item" style={{animationDelay: '1.1s'}}>
           <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
             <div className="text-4xl font-bold gradient-text mb-2">Retirement</div>
             <p className="text-gray-600">Planning Made Easy</p>
