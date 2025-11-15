@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Image from 'next/image';
 import Link from 'next/link';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export default function Home() {
   return (
@@ -8,19 +9,20 @@ export default function Home() {
       <Hero />
 
       {/* Company Overview */}
-      <section className="py-20 bg-white stagger-item">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">
-              What We <span className="gradient-text">Build</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              AI-powered financial tools that help you plan for retirement, manage your budget, 
-              track investments, and achieve your money goals with confidence.
-            </p>
-          </div>
+      <ScrollReveal>
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold mb-4">
+                What We <span className="gradient-text">Build</span>
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                AI-powered financial tools that help you plan for retirement, manage your budget, 
+                track investments, and achieve your money goals with confidence.
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Retirement Planning */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100 hover:shadow-xl transition-all hover:-translate-y-1 card-hover">
               <div className="text-4xl mb-4">🎯</div>
@@ -53,10 +55,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* Featured Project - Nestly */}
-      <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 stagger-item">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <ScrollReveal>
+        <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
               Featured <span className="gradient-text">Tool</span>
@@ -133,13 +137,15 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gray-900 text-white stagger-item">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <ScrollReveal>
+        <section className="py-20 bg-gray-900 text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Take Control of <span className="gradient-text">Your Money?</span>
           </h2>
@@ -154,6 +160,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      </ScrollReveal>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Join Early Access - W3Force',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="pt-16">
+    <div className="pt-16 fade-in">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 fade-in">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,11 +25,12 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
-            <div>
+      <ScrollReveal>
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Contact Information */}
+              <div>
               <h2 className="text-3xl font-bold mb-6">
                 Get Updates on <span className="gradient-text">New Tools</span>
               </h2>
@@ -120,15 +122,17 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Frequently Asked <span className="gradient-text">Questions</span>
-          </h2>
+      <ScrollReveal>
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center mb-12">
+              Frequently Asked <span className="gradient-text">Questions</span>
+            </h2>
 
-          <div className="space-y-6">
+            <div className="space-y-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-semibold mb-2">Is W3Force really free?</h3>
               <p className="text-gray-600">
@@ -167,6 +171,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
     </div>
   );
 }

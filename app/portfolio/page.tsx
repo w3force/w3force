@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Our Tools - W3Force',
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   return (
-    <div className="pt-16">
+    <div className="pt-16 fade-in">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-violet-50 via-pink-50 to-orange-50 fade-in">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,10 +25,11 @@ export default function PortfolioPage() {
       </section>
 
       {/* Nestly Advisor - Main Project */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Project Header */}
-          <div className="mb-12">
+      <ScrollReveal>
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Project Header */}
+            <div className="mb-12 stagger-item" style={{animationDelay: '0.3s'}}>
             <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
               Retirement Planning Tool
             </div>
@@ -52,12 +54,12 @@ export default function PortfolioPage() {
           </div>
 
           {/* Key Features */}
-          <div className="mb-16">
+          <div className="mb-16 stagger-item" style={{animationDelay: '0.4s'}}>
             <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-violet-50 to-violet-100 p-8 rounded-2xl">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">⚡</div>
                 <h4 className="text-xl font-bold mb-3 text-violet-900">See Results in 8 Seconds</h4>
                 <p className="text-gray-700">
@@ -66,7 +68,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-2xl hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">📊</div>
                 <h4 className="text-xl font-bold mb-3 text-pink-900">What-If Analysis</h4>
                 <p className="text-gray-700">
@@ -75,7 +77,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">🔒</div>
                 <h4 className="text-xl font-bold mb-3 text-orange-900">Privacy First</h4>
                 <p className="text-gray-700">
@@ -84,7 +86,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">💰</div>
                 <h4 className="text-xl font-bold mb-3 text-teal-900">Deterministic Planning</h4>
                 <p className="text-gray-700">
@@ -93,7 +95,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">📈</div>
                 <h4 className="text-xl font-bold mb-3 text-indigo-900">Portfolio Strategies</h4>
                 <p className="text-gray-700">
@@ -102,7 +104,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="text-4xl mb-4">🎯</div>
                 <h4 className="text-xl font-bold mb-3 text-purple-900">IRS Compliance</h4>
                 <p className="text-gray-700">
@@ -232,15 +234,17 @@ export default function PortfolioPage() {
                 <p className="text-gray-700 font-semibold">Forever</p>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
 
       {/* My Budget - Second Project */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Project Header */}
-          <div className="mb-12">
+      <ScrollReveal>
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Project Header */}
+            <div className="mb-12">
             <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
               Windows Phone App
             </div>
@@ -266,12 +270,12 @@ export default function PortfolioPage() {
           </div>
 
           {/* Key Features */}
-          <div className="mb-16">
+          <div className="mb-16 stagger-item" style={{animationDelay: '0.4s'}}>
             <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">💳</span>
                 </div>
@@ -282,7 +286,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">🛒</span>
                 </div>
@@ -293,7 +297,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">📋</span>
                 </div>
@@ -304,7 +308,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">💸</span>
                 </div>
@@ -315,18 +319,18 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-white text-2xl">📊</span>
+                  <span className="text-white text-2xl">👀</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3">Financial Reports</h4>
+                <h4 className="text-xl font-bold mb-3">Watch Lists</h4>
                 <p className="text-gray-600">
                   Generate detailed financial reports and visualizations. 
                   Understand your spending habits with charts and analytics.
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">⚙️</span>
                 </div>
@@ -357,7 +361,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Get Started</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mybudget/screenshot-2-accounts.jpg"
                   alt="My Budget Accounts"
@@ -368,7 +372,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Account Management</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mybudget/screenshot-3-expenses.png"
                   alt="My Budget Expenses"
@@ -379,7 +383,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Expense Tracking</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mybudget/screenshot-4-bills.png"
                   alt="My Budget Bills"
@@ -390,7 +394,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Bill Management</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mybudget/screenshot-5-transactions.png"
                   alt="My Budget Transactions"
@@ -401,7 +405,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Transaction History</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mybudget/screenshot-6-info.png"
                   alt="My Budget Information"
@@ -433,15 +437,17 @@ export default function PortfolioPage() {
                 <p className="text-gray-600">Windows Store App</p>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
 
       {/* My Stocks - Third Project */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Project Header */}
-          <div className="mb-12">
+      <ScrollReveal>
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Project Header */}
+            <div className="mb-12 stagger-item" style={{animationDelay: '0.3s'}}>
             <div className="inline-block px-4 py-2 gradient-bg text-white rounded-full text-sm font-semibold mb-4">
               Mobile App
             </div>
@@ -458,12 +464,12 @@ export default function PortfolioPage() {
           </div>
 
           {/* Key Features */}
-          <div className="mb-16">
+          <div className="mb-16 stagger-item" style={{animationDelay: '0.4s'}}>
             <h3 className="text-3xl font-bold mb-8">
               Key <span className="gradient-text">Features</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">📊</span>
                 </div>
@@ -474,7 +480,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">👀</span>
                 </div>
@@ -485,7 +491,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-2xl">📈</span>
                 </div>
@@ -505,7 +511,7 @@ export default function PortfolioPage() {
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-1-portfolio.png"
                   alt="My Stocks Portfolio View"
@@ -516,7 +522,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Portfolio Overview</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-2-watchlist.png"
                   alt="My Stocks Watch List"
@@ -527,7 +533,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Watch List</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-3.png"
                   alt="My Stocks Details"
@@ -538,7 +544,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Stock Details</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-4.png"
                   alt="My Stocks Analytics"
@@ -549,7 +555,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Analytics View</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-5.png"
                   alt="My Stocks Settings"
@@ -560,7 +566,7 @@ export default function PortfolioPage() {
                 <p className="text-center mt-4 text-gray-600 font-medium">Settings</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-4 shadow-lg">
+              <div className="bg-white rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <Image
                   src="/mystocks/screenshot-6.png"
                   alt="My Stocks Market Data"
@@ -592,13 +598,15 @@ export default function PortfolioPage() {
                 <p className="text-gray-600">Market Data Updates</p>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <ScrollReveal>
+        <section className="py-20 bg-gray-900 text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Take Control of <span className="gradient-text">Your Finances?</span>
           </h2>
@@ -613,6 +621,7 @@ export default function PortfolioPage() {
           </a>
         </div>
       </section>
+      </ScrollReveal>
     </div>
   );
 }
